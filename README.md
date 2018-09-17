@@ -17,6 +17,7 @@ With this template use "Don't use a Layout" from the Layout tab
 
 ### Ghost lines in Outlook from a MC mailing
 Most likely due to the height of something being an odd number. - *Still testing this to confirm* 
+
 [https://goo.gl/12Q9ab](https://goo.gl/12Q9ab) 
 [https://goo.gl/vdoXfk](https://goo.gl/vdoXfk) 
 
