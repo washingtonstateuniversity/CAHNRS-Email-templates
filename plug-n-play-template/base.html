@@ -59,6 +59,20 @@ a[x-apple-data-detectors] {
   display: none !important;
   width: 0 !important;
 }
+// VIDEO
+.video-wrapper {display:none;} //YahooMail
+@supports (-webkit-overflow-scrolling:touch) and (color:#ffffffff) { //iOS 10 and above
+  div[class^=video-wrapper] { display:block!important; }
+  div[class^=video-fallback] { display:none!important; }
+}
+@media (-webkit-min-device-pixel-ratio: 0) and (min-device-width:1024px) //Apple Mac Clients
+{
+  .video-wrapper { display:block!important; }
+  .video-fallback { display:none!important; }
+}
+#MessageViewBody .video-wrapper { display:block!important; } //SAMSUNG
+#MessageViewBody .video-fallback { display:none!important; }
+// END VIDEO
 @media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
 .hidden {
   display: none !important;

@@ -49,3 +49,14 @@ Emails forwarded through Outlook do not support preview text.
  
 [The Ultimate Guide to Preview Text Support](https://litmus.com/blog/the-ultimate-guide-to-preview-text-support), 2/8/2017 
 [The Little-Known Preview Text Hack You May Want to Use in Every Email (zero-width non-joiners)](https://litmus.com/blog/the-little-known-preview-text-hack-you-may-want-to-use-in-every-email) 
+
+
+## TESTING
+
+### Video Embed
+File: core-1col-full-horz-video.html
+everything & base: CSS line:62-75
+[A How-To Guide on Embedding HTML5 Video in Email](https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/)
+
+### Text over images
+File: core-1col-full-horz-text-img-button-overlay
