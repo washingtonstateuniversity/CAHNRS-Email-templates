@@ -51,11 +51,12 @@ Emails forwarded through Outlook do not support preview text.
 
 **Need to test**: Emails forwarded through OWA 
  
-[The Ultimate Guide to Preview Text Support](https://litmus.com/blog/the-ultimate-guide-to-preview-text-support), 2/8/2017 
+[The Ultimate Guide to Preview Text Support](https://litmus.com/blog/the-ultimate-guide-to-preview-text-support), 2/8/2017
+
 [The Little-Known Preview Text Hack You May Want to Use in Every Email (zero-width non-joiners)](https://litmus.com/blog/the-little-known-preview-text-hack-you-may-want-to-use-in-every-email) 
 
-### Text over images
-File: core-1col-full-horz-text-img-button-overlay
+## Text over images
+**File**: core-1col-full-horz-text-img-button-overlay
 
 [The Ultimate Guide to Background Images in Email](https://litmus.com/blog/the-ultimate-guide-to-background-images-in-email)
 
@@ -63,7 +64,7 @@ File: core-1col-full-horz-text-img-button-overlay
 ## TESTING
 
 ### Video Embed
-File: core-1col-full-horz-video.html
+**File**: core-1col-full-horz-video.html
 
 everything & base: CSS line:62-75
 
