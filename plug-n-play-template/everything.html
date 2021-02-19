@@ -6,6 +6,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 <title>EMAIL TITLE</title>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+<!-- FAVICON -->
+<link rel="shortcut icon" type="image/x-icon" href="https://repo.wsu.edu/spine/1/favicon.ico" />
 <style type="text/css">
 body {
   height: 100% !important;
@@ -24,6 +26,19 @@ table, td {
   mso-table-lspace: 0pt;
   mso-table-rspace: 0pt;
 }
+.sr-only {
+  border: 0; 
+  clip: rect(0 0 0 0); 
+  clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+  -webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+  height: 1px; 
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
 img {
   outline: none;
   text-decoration: none;
@@ -31,7 +46,7 @@ img {
 }
 a {
   color: inherit;
-  outline: none;
+  /*outline: none; */
   text-decoration: none;
 }
 a[x-apple-data-detectors] {
@@ -59,7 +74,6 @@ a[x-apple-data-detectors] {
   display: none !important;
   width: 0 !important;
 }
-
 @media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
 .hidden {
   display: none !important;
@@ -88,6 +102,10 @@ a[x-apple-data-detectors] {
   padding-right: 10px !important;
   padding-left: 10px !important;
 }
+.paddingRightLeft20 {
+  padding-right: 20px !important;
+  padding-left: 20px !important;   
+}
 }
 </style>
 <!--[if mso]>
@@ -109,340 +127,428 @@ li.lastListItem {margin-bottom:20px !important;}
 </style>
 <![endif]-->
 <!--
-FIND & REPLACE
-email background: RebeccaPurple
-preview: GhostWhite
-View Online: Gray
-Image Overlay background color: #FFA500
-color: Black
-copy background: White
+FIND & REPLACE (suggested replacement)
+Email background: RebeccaPurple (#EFF0F1)
+Background: White (#FFFFFF)
+Font color: Black (#454343)
+link color: DarkRed (#981e32)
 heading color: MidnightBlue
-copy link color: DarkRed
-button color: DarkRed
+Preview text: GhostWhite
+View Online: Gray (#333333)
+Button color: DarkRed (#981e32)
+Button text: Snow (#FFFFFF)
 footer link color: DimGray
 footer color: DimGray
-button-like background: DarkRed
-button-like border: DarkRed
-button-like text: Snow
-break: Lime
+button-like background: DarkRed (#981e32)
+button-like border: DarkRed (#981e32)
+button-like text: Snow (#FFFFFF)
+Image Overlay background color: #FFA500
 -->
 </head>
 <body bgcolor="RebeccaPurple" style="margin:0; padding:0; min-width:100% !important; background-color:RebeccaPurple;">
   <div align="center" style="background-color:RebeccaPurple;">
-<!-- ADD PREVIEW HERE --> 
+<!-- ADD PREVIEW HERE -->
 <!-- PREVIEW -->
-<div style="display:none !important; visibility:hidden; mso-hide:all; font-size:1px; font-weight: normal; color:orange; line-height:1px; max-height:0px; max-width:0px; opacity:0; overflow:hidden;">Insert preview text here. Text color is orange!!! Make color the same as background color!!! (EmailOnAcid CSS code) This should be 500 characters to accomodate Siri reading the preheader for users. It reads all preheader text and then starts reading code.
+<div style="display:none !important; visibility:hidden; mso-hide:all; font-size:1px; font-weight: normal; color:GhostWhite; line-height:1px; max-height:0px; max-width:0px; opacity:0; overflow:hidden;"><!-- Insert preview text here. --> Text color is GhostWhite!!! Make color the same as background color!!! (EmailOnAcid CSS code) This should be 500 characters to accommodate Siri reading the preheader for users. It reads all preheader text and then starts reading code.
 </div>
 <!-- Insert &zwnj;&nbsp; hack after hidden preview text -->
-<div style="display: none; max-height: 0px; overflow: hidden;">
-&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+<div style="display: none; max-height: 0px; overflow: hidden;">&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
 </div>
-<!-- END PREVIEW -->
+<!-- END PREVIEW --> 
 <!-- END ADD PREVIEW HERE -->   
     <table bgcolor="RebeccaPurple" style="background-color:RebeccaPurple;" role="presentation" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="500">
       <tr>
         <td align="center" valign="top">
-<!-- ADD HERE -->
+<!-- ADD VIEW ONLINE HERE -->
 <!-- VIEW ONLINE -->
 <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:12px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Gray; padding:20px 20px 20px 20px;">
-      <p style="margin:0;">Preheader align="left" | <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="color: Gray; outline: none; text-decoration: underline;">View Online</a></p>
-    </td>
-  </tr>
-</table>
+    <tr>
+      <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:12px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Gray; padding:20px 20px 20px 20px;">
+        <p style="margin:0;"><span class="sr-only">For accessibility, we recommend to</span><a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="color: Gray; outline: none; text-decoration: underline;">View Online</a> <span class="sr-only">(all links open in a new window)</span></p>
+      </td>
+    </tr>
+  </table>
 <!-- END VIEW ONLINE -->
 <!-- BREAK -->
 <table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
-<!-- BREAK -->
-<!--  4COL LOGO/ICON SOCIAL/ICONS  -->
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+<!-- VIEW ONLINE -->
 <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td align="left" valign="top">
-<!--  LOGO -->
-      <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="400">
-        <tr>
-          <td align="center" valign="top">
-            <table role="presentation" class="widthAuto" cellpadding="0" cellspacing="0" border="0" width="100%">
-              <tr>
-                <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:Black; padding:20px 20px 20px 20px;">
-                  <img src="https://picsum.photos/g/200/40" alt="" width="200" height="40" border="0" style="display:block;" />
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
-<!--  END LOGO -->
-<!--  SOCIAL  -->
-      <!--[if mso]>
+    <tr>
+      <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:12px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Gray; padding:20px 20px 20px 20px;">
+        <p style="margin:0;">Preheader align="left" | <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="color: Gray; outline: none; text-decoration: underline;">View Online</a></p>
       </td>
-      <td align="left" valign="top">
-      <![endif]-->
-      <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
-        <tr>
-          <td align="center" valign="top">
-            <table role="presentation" cellpadding="0" cellspacing="0" border="0">
-              <tr>
-                <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:Black; padding:20px 10px 20px 20px;">
-                  <img src="https://picsum.photos/g/40/40" alt="" width="40" height="40" border="0" style="display:block;" />
-                </td>
-                <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:Black; padding:20px 10px 20px 10px;">
-                  <img src="https://picsum.photos/g/40/40" alt="" width="40" height="40" border="0" style="display:block;" />
-                </td>
-                <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;  color:Black; padding:20px 20px 20px 10px;">
-                  <img src="https://picsum.photos/g/40/40" alt="" width="40" height="40" border="0" style="display:block;" />
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
-<!--  END SOCIAL  -->
-    </td>
-  </tr>
-</table>
-<!-- END 4COL LOGO/ICON SOCIAL/ICONS -->
+    </tr>
+  </table>
+<!-- END VIEW ONLINE -->
+<!-- END ADD VIEW ONLINE HERE -->
+<!-- BODY COPY SECTION -->
+<table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0">
+<tr><td>
+<!-- IMPORTANT: To avoid line in iphones the content area needs to be wrapped in a table (above) of the same background -->
+<!-- ADD HERE -->
 <!-- BREAK -->
 <table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
-<!-- BREAK -->
-<!-- 1COL FULL TEXT-IMAGE-BUTTON OVERLAY -->
-<!-- Background IMAGE -->
-<table role="presentation" bgcolor="#FFA500" cellpadding="0" cellspacing="0" border="0">
-  <tr>
-    <td valign="top" bgcolor="#FFA500" style="background-image: url('https://picsum.photos/g/600/300');"
-      background="https://picsum.photos/g/600/300" width="600" height="300">
-      <!--[if gte mso 9]>
-      <v:rect style="width:600px;height:300px;" strokecolor="none">
-        <v:fill type="tile" color="#FFA500" src="https://picsum.photos/g/600/300" /></v:fill>
-      </v:rect>
-      <v:shape id="NameHere" style="position:absolute;width:600px;height:300px;">
-      <![endif]-->
-<!-- END Background IMAGE -->
-<!-- 1COL FULL CAHNRS IMAGE -->
-<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="600">
     <tr>
-      <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:18px; font-weight: normal; color:#FFFFFF; padding:20px 20px 20px 20px;border:3px solid white;">
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+<!-- 1COL FULL CAHNRS IMAGE -->
+<table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:DarkRed; padding:0px 0px 0px 0px;">
         <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="color:DarkRed; text-decoration:none;">
-          <img src="http://email.cahnrs.wsu.edu/html/images/cahnrs-abbrv-horiz-logo-white.png" alt="College of Agricultural, Human, and Natural Resource Science" width="385" height="57" border="0" style="display:block" class="photo" />
+          <img src="http://email.cahnrs.wsu.edu/html/cahnrs/cahnrs-footer.jpg" alt="College of Agricultural, Human, and Natural Resource Sciences" width="600" height="40" border="0" style="display:block;" class="photo" />
         </a>
       </td>
     </tr>
   </table>
 <!-- END 1COL FULL CAHNRS IMAGE -->
-<!-- 1COL FULL TEXT -->
-<table role="presentation" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-     <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:#FFFFFF; padding:20px 20px 20px 20px;border:3px solid white;">
-      <p style="margin:0;">Email  ipsum <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="color:DarkRed; text-decoration:underline;">bounce message</a> deliver recipient mailbox rate clickthrough tracking commercial.</p>
-<!-- BUTTON --> 
-<table role="presentation" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="540">
-  <tr>
-    <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:DarkRed; padding:10px 0 20px 0;">
-      <table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate !important;background-color:DarkRed;color:Snow;border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-left-radius:30px;border-bottom-right-radius:30px;">
-        <tr>
-          <td align="center" valign="middle" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;line-height:150%; mso-line-height-rule:exactly; padding-top:12px;padding-bottom:12px;padding-right:30px;padding-left:30px;">
-            <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="font-weight:bold;line-height:100%;text-align:center;text-decoration:underline;display:block;color:Snow">Button</a>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
-<!-- END BUTTON -->  
-    </td>
-  </tr>
-</table>
-<!-- END 1COL FULL TEXT -->
-      <!--[if gte mso 9]>
-      </v:shape>
-      <![endif]-->
-    </td>
-  </tr>
-</table>
-<!-- END 1COL FULL TEXT-IMAGE-BUTTON OVERLAY -->
 <!-- BREAK -->
 <table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
-<!-- BREAK -->
-<!-- 1COL FULL CAHNRS IMAGE -->
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+ <!-- 1COL FULL IMAGE WITH BORDER -->
 <table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0">
-  <tr>
-    <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:DarkRed; padding:0px 0px 0px 0px;">
-      <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="color:DarkRed; text-decoration:none;">
-        <img src="http://email.cahnrs.wsu.edu/html/cahnrs/cahnrs-footer.jpg" alt="College of Agricultural, Human, and Natural Resource Science" width="600" height="40" border="0" style="display:block;" class="photo" />
-      </a>
-    </td>
-  </tr>
-</table>
-<!-- END1COL FULL CAHNRS IMAGE -->
-<!-- BREAK -->
-<table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
-<!-- BREAK -->
-<!-- 1COL FULL IMAGE -->
-<table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0">
-  <tr>
-    <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:DarkRed; padding:0px 0px 0px 0px;">
-      <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="color:DarkRed; text-decoration:none;">
-        <img src="https://picsum.photos/g/600/200" alt="" width="600" height="200" border="0" style="display:block;" class="photo" />
-      </a>
-    </td>
-  </tr>
-</table>
+    <tr>
+      <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:DarkRed; padding:20px 20px 20px 20px;">
+        <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="color:DarkRed; text-decoration:none;">
+          <img src="https://picsum.photos/g/560/160" alt="Add ALT Text here" width="560" height="160" border="0" style="display:block;border-radius: 11px !important;" class="photo" />
+        </a>
+      </td>
+    </tr>
+  </table>
+  <!-- END 1COL FULL IMAGE WITH BORDER -->
+  <!-- BREAK -->
+  <table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+ <!-- 1COL FULL IMAGE -->
+ <table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:DarkRed; padding:0px 0px 0px 0px;">
+        <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="color:DarkRed; text-decoration:none;">
+          <img src="https://picsum.photos/g/600/200" alt="Add ALT Text here" width="600" height="200" border="0" style="display:block;" class="photo" />
+        </a>
+      </td>
+    </tr>
+  </table>
 <!-- END 1COL FULL IMAGE -->
 <!-- BREAK -->
 <table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
-<!-- BREAK -->
-<!-- INSERT OVERLAY HERE -->
-<!-- BREAK -->
-<table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
-<!-- BREAK -->
-<!-- 1COL FULL IMAGE WITH BORDER -->
-<table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0">
-  <tr>
-    <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:DarkRed; padding:20px 20px 20px 20px;">
-      <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="color:DarkRed; text-decoration:none;">
-        <img src="https://picsum.photos/g/560/160" alt="" width="560" height="260" border="0" style="display:block;border-radius: 11px !important;" class="photo" />
-      </a>
-    </td>
-  </tr>
-</table>
-<!-- END 1COL FULL IMAGE WITH BORDER -->
-<!-- BREAK -->
-<table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
-<!-- BREAK -->
-
-<!-- BREAK -->
-<table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
-<!-- BREAK -->
-<!-- 1COL FULL TEXT/BUTTON -->
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+<!-- 1COL FULL HORZ LINE-->
+<!-- width of 1st table (600) equals padding (left & right) plus width of 2nd table -->
 <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
-      <p style="margin:0;">Email  ipsum <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="color:DarkRed; text-decoration:underline;">bounce message</a> deliver recipient mailbox rate clickthrough tracking commercial.</p>
-      <ol style="padding:0 0 0 40px; margin:0;">
-      <li class="firstListItem" style="margin:0 0 5px 0;">First Item</li>
-      <li style="margin:0 0 5px 0;">Item 2</li>
-      <li class="lastListItem" style="margin:0;">Last Item</li>
-      </ol>
-      <p style="margin:0;">List build create sending split valuable test render table program. Subject unicode newsletter subscriber campaign notifies online.</p>
-      <p style="margin:0;">Data text image client code verifies sender Authentication welcome inbox trigger automation.</p>
-      <ul style="padding:0 0 0 40px; margin:0;">
-      <li class="firstListItem" style="margin:0 0 5px 0;">First Item</li>
-      <li style="margin:0 0 5px 0;">item 2</li>
-      <li class="lastListItem" style="margin:0;">Last Item</li>
-      </ul>
-      <p style="margin:0;">Address reply receiving domain Block recipient practices sent.</p>
-<!-- BUTTON --> 
-        <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="560">
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:100%; mso-line-height-rule:exactly; color:FireBrick; padding:0px 90px 0px 90px;">
+        <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="420">
           <tr>
-            <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:DarkRed; padding:10px 0 20px 0;">
-              <table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate !important;background-color:DarkRed;color:Snow;border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-left-radius:30px;border-bottom-right-radius:30px;">
-                <tr>
-                  <td align="center" valign="middle" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;line-height:150%; mso-line-height-rule:exactly; padding-top:12px;padding-bottom:12px;padding-right:30px;padding-left:30px;">
-                    <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="font-weight:bold;line-height:100%;text-align:center;text-decoration:underline;display:block;color:Snow">Button</a>
-                  </td>
-                </tr>
-              </table>
+            <td class="paddingRightLeft10" align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:100%; mso-line-height-rule:exactly; color:FireBrick; border-bottom:1px solid FireBrick; padding:0;">
+              <p style="margin:0;">&nbsp;</p>
             </td>
           </tr>
         </table>
+      </td>
+    </tr>
+  </table>
+  <!-- END 1COL FULL HORZ LINE-->
+<!-- BREAK -->
+<table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+<!-- 1COL FULL TEXT/BUTTON -->
+<table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+        <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
+            <p style="margin:0;">Email  ipsum <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="color:DarkRed; text-decoration:underline;">bounce message</a> deliver recipient mailbox rate clickthrough tracking commercial.</p>
+            <ol style="padding:0 0 0 40px; margin:0;">
+            <li class="firstListItem" style="margin:0 0 5px 0;">First Item</li>
+            <li style="margin:0 0 5px 0;">Item 2</li>
+            <li class="lastListItem" style="margin:0;">Last Item</li>
+            </ol>
+            <p style="margin:0;">List build create sending split valuable test render table program. Subject unicode newsletter subscriber campaign notifies online.</p>
+            <p style="margin:0;">Data text image client code verifies sender Authentication welcome inbox trigger automation.</p>
+            <ul style="padding:0 0 0 40px; margin:0;">
+            <li class="firstListItem" style="margin:0 0 5px 0;">First Item</li>
+            <li style="margin:0 0 5px 0;">item 2</li>
+            <li class="lastListItem" style="margin:0;">Last Item</li>
+            </ul>
+            <p style="margin:0;">Address reply receiving domain Block recipient practices sent.</p>
+<!-- BUTTON --> 
+                <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="560">
+                    <tr>
+                        <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:DarkRed; padding:10px 0 20px 0;">
+                            <table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate !important;background-color:DarkRed;color:Snow;border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-left-radius:30px;border-bottom-right-radius:30px;">
+                                <tr>
+                                    <td align="center" valign="middle" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;line-height:150%; mso-line-height-rule:exactly; padding-top:12px;padding-bottom:12px;padding-right:30px;padding-left:30px;">
+                                        <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="font-weight:bold;line-height:100%;text-align:center;text-decoration:none;display:block;color:Snow">Button</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
 <!-- END BUTTON --> 				
-    </td>
-  </tr>
+        </td>
+    </tr>
 </table>
 <!-- END 1COL FULL TEXT/BUTTON -->
 <!-- BREAK -->
 <table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+<!-- 1COL FULL TEXT CALLOUT-->
+<table role="presentation" bgcolor="White" class="widthFull" style="border-radius: 11px !important;" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
+        <table role="presentation" bgcolor="White" class="widthFull" style="border-radius: 11px !important;" cellpadding="0" cellspacing="0" border="0" width="560">
+          <tr>
+            <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
+              <p style="margin:0;">Email  ipsum <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="color:DarkRed; text-decoration:underline;">bounce message</a> deliver recipient mailbox rate clickthrough tracking commercial.</p>
+              <ol style="padding:0 0 0 40px; margin:0;">
+              <li class="firstListItem" style="margin:0 0 5px 0;">First Item</li>
+              <li style="margin:0 0 5px 0;">Item 2</li>
+              <li class="lastListItem" style="margin:0;">Last Item</li>
+              </ol>
+              <p style="margin:0;">List build create sending split valuable test render table program. Subject unicode newsletter subscriber campaign notifies online.</p>
+              <p style="margin:0;">Data text image client code verifies sender Authentication welcome inbox trigger automation.</p>
+              <ul style="padding:0 0 0 40px; margin:0;">
+              <li class="firstListItem" style="margin:0 0 5px 0;">First Item</li>
+              <li style="margin:0 0 5px 0;">Item 2</li>
+              <li class="lastListItem" style="margin:0;">Last Item</li>
+              </ul>
+              <p style="margin:0;">Address reply receiving domain Block recipient practices sent.</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <!-- END 1COL FULL TEXT CALLOUT -->
+  <!-- BREAK -->
+  <table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+  <!-- 1COL FULL TEXTDEAN'S SIGNATURE -->
+  <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+        <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:16px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:0 20px 10px 40px;">
+            <img style="display:block;" src="http://email.cahnrs.wsu.edu/html/cahnrs-dean/2019/dean-wright-signature.png" alt=" " width="280" height="59" border="0">
+        </td>
+        </tr>
+        <tr>
+        <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:16px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:0 60px 20px 60px;">
+            <p style="margin:0;">André-Denis Wright, CAHNRS Dean</p>
+        </td>
+    </tr>
+  </table>
+  <!-- END 1COL FULL TEXT DEAN'S DEAN'S SIGNATURE -->
 <!-- BREAK -->
+<table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
 <!-- 1COL FULL TEXT-H1 -->         
 <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:24px; font-weight: bold; line-height:150%; mso-line-height-rule:exactly; color:MidnightBlue; padding:20px 20px 20px 20px;">
-      <h1 style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:24px; font-weight: bold; line-height:150%; mso-line-height-rule:exactly; margin:0; color:MidnightBlue;">Heading 1Email ipsum bounce message</h1>
-    </td>
-  </tr>
-</table>
+    <tr>
+      <td class="paddingRightLeft10" align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:24px; font-weight: bold; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
+        <h1 style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:24px; font-weight: bold; line-height:150%; mso-line-height-rule:exactly; margin:0; color:MidnightBlue;">Heading 1Email ipsum bounce message</h1>
+      </td>
+    </tr>
+  </table>
 <!-- END 1COL FULL TEXT-H1 -->  
 <!-- BREAK -->
 <table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
-<!-- BREAK -->
-<!-- 1COL FULL TEXT -->
-<table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
-      <p style="margin:0;">Email  ipsum <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="color:DarkRed; text-decoration:underline;">bounce message</a> deliver recipient mailbox rate clickthrough tracking commercial.</p>
-      <ol style="padding:0 0 0 40px; margin:0;">
-      <li class="firstListItem" style="margin:0 0 5px 0;">First Item</li>
-      <li style="margin:0 0 5px 0;">Item 2</li>
-      <li class="lastListItem" style="margin:0;">Last Item</li>
-      </ol>
-      <p style="margin:0;">List build create sending split valuable test render table program. Subject unicode newsletter subscriber campaign notifies online.</p>
-      <p style="margin:0;">Data text image client code verifies sender Authentication welcome inbox trigger automation.</p>
-      <ul style="padding:0 0 0 40px; margin:0;">
-      <li class="firstListItem" style="margin:0 0 5px 0;">First Item</li>
-      <li style="margin:0 0 5px 0;">Item 2</li>
-      <li class="lastListItem" style="margin:0;">Last Item</li>
-      </ul>
-      <p style="margin:0;">Address reply receiving domain Block recipient practices sent.</p>
-    </td>
-  </tr>
-</table>
-<!-- END FULL TEXT  -->
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+ <!-- 1COL FULL TEXT-IMAGE-BUTTON OVERLAY 
+FIND & REPLACE
+Image: https://picsum.photos/g/600/300 
+Image Height & Width: 
+Background color: #FFA500 
+Border: Tomato  -->
+<!-- Background IMAGE -->
+<table role="presentation" bgcolor="#FFA500" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td valign="top" bgcolor="#FFA500" style="background-image: url('https://picsum.photos/g/600/300');"
+        background="https://picsum.photos/g/600/300" width="600" height="300">
+        <!--[if gte mso 9]>
+        <v:rect style="width:600px;height:300px;" strokecolor="none">
+          <v:fill type="tile" color="#FFA500" src="https://picsum.photos/g/600/300" /></v:fill>
+        </v:rect>
+        <v:shape id="NameHere" style="position:absolute;width:600px;height:300px;">
+        <![endif]-->
+  <!-- END Background IMAGE -->
+  <!-- 1COL FULL CAHNRS IMAGE -->
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="600">
+      <tr>
+        <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:18px; font-weight: normal; color:White; padding:20px 20px 20px 20px;border:3px solid Tomato;">
+          <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="color:DarkRed; text-decoration:none;">
+            <img src="http://email.cahnrs.wsu.edu/html/images/cahnrs-abbrv-horiz-logo-white.png" alt="College of Agricultural, Human, and Natural Resource Science" width="385" height="57" border="0" style="display:block" class="photo" />
+          </a>
+        </td>
+      </tr>
+    </table>
+  <!-- END 1COL FULL CAHNRS IMAGE -->
+  <!-- 1COL FULL TEXT -->
+  <table role="presentation" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+       <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;border:3px solid Tomato;">
+        <p style="margin:0;">Email  ipsum <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="color:DarkRed; text-decoration:underline;">bounce message</a> deliver recipient mailbox rate clickthrough tracking commercial.</p>
+  <!-- BUTTON --> 
+  <table role="presentation" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="540">
+    <tr>
+      <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:DarkRed; padding:10px 0 20px 0;">
+        <table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate !important;background-color:DarkRed;color:Snow;border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-left-radius:30px;border-bottom-right-radius:30px;">
+          <tr>
+            <td align="center" valign="middle" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;line-height:150%; mso-line-height-rule:exactly; padding-top:12px;padding-bottom:12px;padding-right:30px;padding-left:30px;">
+              <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="font-weight:bold;line-height:100%;text-align:center;text-decoration:underline;display:block;color:Snow">Button</a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <!-- END BUTTON -->  
+      </td>
+    </tr>
+  </table>
+  <!-- END 1COL FULL TEXT -->
+        <!--[if gte mso 9]>
+        </v:shape>
+        <![endif]-->
+      </td>
+    </tr>
+  </table>
+  <!-- END 1COL FULL TEXT-IMAGE-BUTTON OVERLAY -->
 <!-- BREAK -->
 <table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+<!-- FIND & REPLACE
+Image: https://picsum.photos/g/600/200 
+Image Height & Width: 
+Background color: #FFA500 -->
+<!-- 1COL FULL TEXT-IMAGE -->
+<table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td bgcolor="#FFA500" style="background-image: url('https://picsum.photos/g/600/200');"
+        background="https://picsum.photos/g/600/200" width="600" height="200">
+        <!--[if gte mso 9]>
+        <v:rect style="width:600px;height:200px;" strokecolor="none">
+          <v:fill type="tile" color="#FFA500" src="https://picsum.photos/g/600/200" /></v:fill>
+        </v:rect>
+        <v:shape id="NameHere" style="position:absolute;width:540px;height:150px;">
+        <![endif]-->
+      <p>This text should appear on top of your background image.</p>
+        <!--[if gte mso 9]>
+        </v:shape>
+        <![endif]--></td>
+    </tr>
+  </table>
+  <!-- END 1COL FULL TEXT-IMAGE -->  
 <!-- BREAK -->
+<table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+<!-- 1COL FULL TEXT -->
+<table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+        <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
+            <p style="margin:0;">Email  ipsum <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="color:DarkRed; text-decoration:underline;">bounce message</a> deliver recipient mailbox rate clickthrough tracking commercial.</p>
+            <ol style="padding:0 0 0 40px; margin:0;">
+            <li class="firstListItem" style="margin:0 0 5px 0;">First Item</li>
+            <li style="margin:0 0 5px 0;">Item 2</li>
+            <li class="lastListItem" style="margin:0;">Last Item</li>
+            </ol>
+            <p style="margin:0;">List build create sending split valuable test render table program. Subject unicode newsletter subscriber campaign notifies online.</p>
+            <p style="margin:0;">Data text image client code verifies sender Authentication welcome inbox trigger automation.</p>
+            <ul style="padding:0 0 0 40px; margin:0;">
+            <li class="firstListItem" style="margin:0 0 5px 0;">First Item</li>
+            <li style="margin:0 0 5px 0;">Item 2</li>
+            <li class="lastListItem" style="margin:0;">Last Item</li>
+            </ul>
+            <p style="margin:0;">Address reply receiving domain Block recipient practices sent.</p>
+        </td>
+    </tr>
+</table>
+<!-- END 1COL FULL TEXT -->
+<!-- BREAK -->
+<table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
 <!-- 2COL HALF IMG BUTTON/BUTTON -->
 <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td align="center" valign="top">
-      <table role="presentation" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-        <tr>
-          <td align="left" valign="top">
-            <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="300">
+    <tr>
+      <td align="center" valign="top">
+        <table role="presentation" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+          <tr>
+            <td align="left" valign="top">
+              <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="300">
+                  <tr>
+                    <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
+    <!-- BUTTON --> 
+                      <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="260">
+                        <tr>
+                          <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; color:DarkRed; padding:10px 0 20px 0;">
+                            <table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate !important;background-color:DarkRed;color:Snow;border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-left-radius:30px;border-bottom-right-radius:30px;">
+                              <tr>
+                                <td align="center" valign="middle" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;padding-top:12px;padding-bottom:12px;padding-right:30px;padding-left:30px;">
+                                  <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="font-weight:bold;line-height:100%;text-align:center;text-decoration:none;display:block;color:Snow">Button</a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+    <!-- END BUTTON -->                          
+                    </td>
+                  </tr>
+                </table>
+              <!--[if mso]>
+              </td>
+              <td align="left" valign="top">
+              <![endif]-->
+              <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="300">
                 <tr>
                   <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
   <!-- BUTTON --> 
@@ -463,82 +569,61 @@ break: Lime
                   </td>
                 </tr>
               </table>
-            <!--[if mso]>
             </td>
-            <td align="left" valign="top">
-            <![endif]-->
-            <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="300">
-              <tr>
-                <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
-<!-- BUTTON --> 
-                  <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="260">
-                    <tr>
-                      <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; color:DarkRed; padding:10px 0 20px 0;">
-                        <table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate !important;background-color:DarkRed;color:Snow;border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-left-radius:30px;border-bottom-right-radius:30px;">
-                          <tr>
-                            <td align="center" valign="middle" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;padding-top:12px;padding-bottom:12px;padding-right:30px;padding-left:30px;">
-                              <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="font-weight:bold;line-height:100%;text-align:center;text-decoration:none;display:block;color:Snow">Button</a>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                  </table>
-<!-- END BUTTON -->                          
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
 <!-- END 2COL HALF IMG BUTTON/BUTTON -->
 <!-- BREAK -->
 <table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
-<!-- BREAK -->
-<!-- 1COL FULL TEXT CALLOUT -->
-<table role="presentation" bgcolor="White" class="widthFull" style="border-radius: 11px !important;" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
-      <table role="presentation" bgcolor="#EEEEEE" class="widthFull" style="border-radius: 11px !important;" cellpadding="0" cellspacing="0" border="0" width="560">
-        <tr>
-          <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
-            <p style="margin:0;">Email  ipsum <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="color:DarkRed; text-decoration:underline;">bounce message</a> deliver recipient mailbox rate clickthrough tracking commercial.</p>
-            <ol style="padding:0 0 0 40px; margin:0;">
-            <li class="firstListItem" style="margin:0 0 5px 0;">First Item</li>
-            <li style="margin:0 0 5px 0;">Item 2</li>
-            <li class="lastListItem" style="margin:0;">Last Item</li>
-            </ol>
-            <p style="margin:0;">List build create sending split valuable test render table program. Subject unicode newsletter subscriber campaign notifies online.</p>
-            <p style="margin:0;">Data text image client code verifies sender Authentication welcome inbox trigger automation.</p>
-            <ul style="padding:0 0 0 40px; margin:0;">
-            <li class="firstListItem" style="margin:0 0 5px 0;">First Item</li>
-            <li style="margin:0 0 5px 0;">Item 2</li>
-            <li class="lastListItem" style="margin:0;">Last Item</li>
-            </ul>
-            <p style="margin:0;">Address reply receiving domain Block recipient practices sent.</p>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
-<!-- END 1COL FULL TEXT CALLOUT -->
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+ <!-- 2COL HALF TEXT IMG -->
+  <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td align="center" valign="top">
+        <table role="presentation" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+          <tr>
+            <td align="left" valign="top">
+              <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="300">
+                <tr>
+                  <td class="paddingRight20" align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:Black; padding:20px 0 20px 20px;">
+                    <img src="https://picsum.photos/g/280/150" alt="" width="280" height="150" border="0" style="display:block;" class="photo" />
+                  </td>
+                </tr>
+              </table>
+              <!--[if mso]>
+              </td>
+              <td align="left" valign="top">
+              <![endif]-->
+              <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="300">
+                <tr>
+                  <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
+                    <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display. Throttle identify accessibility execute success offer method default series detail section purchase portion loyal local. Field comply represent Hypertext Markup Language.</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+<!-- END 2COL HALF TEXT IMG --> 
 <!-- BREAK -->
 <table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
-<!-- BREAK -->
-<!-- 2COL HALF IMG TEXT/BUTTON -->
-  <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+ <!-- 2COL HALF IMG TEXT/BUTTON -->
+ <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
     <tr>
       <td align="center" valign="top">
         <table role="presentation" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
@@ -586,553 +671,717 @@ break: Lime
 <!-- END 2COL HALF IMG TEXT/BUTTON -->
 <!-- BREAK -->
 <table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
-<!-- BREAK -->
-<!-- 2COL HALF TEXT IMG -->
-<table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td align="center" valign="top">
-      <table role="presentation" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-        <tr>
-          <td align="left" valign="top">
-            <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="300">
-              <tr>
-                <td class="paddingRight20" align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:Black; padding:20px 0 20px 20px;">
-                  <img src="https://picsum.photos/g/280/150" alt="" width="280" height="150" border="0" style="display:block;" class="photo" />
-                </td>
-              </tr>
-            </table>
-            <!--[if mso]>
-            </td>
-            <td align="left" valign="top">
-            <![endif]-->
-            <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="300">
-              <tr>
-                <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
-                  <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display. Throttle identify accessibility execute success offer method default series detail section purchase portion loyal local. Field comply represent Hypertext Markup Language.</p>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
-<!-- END 2COL HALF TEXT IMG --> 
-<!-- BREAK -->
-<table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
-<!-- BREAK -->
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+
 <!-- 2COL HALF TEXT/BUTTON IMG -->         
 <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td align="center" valign="top">
-      <table role="presentation" dir="rtl" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-        <tr>
-          <td align="left" valign="top">
-            <table role="presentation" dir="ltr" align="right" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="300">
-              <tr>
-                <td class="paddingLeft20" align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:Black; padding:20px 20px 20px 0;">
-                  <img src="https://picsum.photos/g/280/150" alt="" width="280" height="150" border="0" style="display:block;" class="photo" />
-                </td>
-              </tr>
-            </table>
-            <!--[if mso]>
-            </td>
+    <tr>
+      <td align="center" valign="top">
+        <table role="presentation" dir="rtl" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+          <tr>
             <td align="left" valign="top">
-            <![endif]-->
-            <table role="presentation" dir="ltr" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="300">
-              <tr>
-                <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
-                  <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display. Throttle identify accessibility execute success offer method default series detail section purchase portion loyal local. Field comply represent Hypertext Markup Language.</p>
-<!-- BUTTON --> 
-                    <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="260">
-                      <tr>
-                        <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:DarkRed; padding:10px 0 20px 0;">
-                          <table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate !important;background-color:DarkRed;color:Snow;border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-left-radius:30px;border-bottom-right-radius:30px;">
-                            <tr>
-                              <td align="center" valign="middle" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;padding-top:12px;padding-bottom:12px;padding-right:30px;padding-left:30px;">
-                                <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="font-weight:bold;line-height:100%;text-align:center;text-decoration:none;display:block;color:Snow">Button</a>
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                      </tr>
-                    </table>
-<!-- END BUTTON -->
-                </td>            
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
-<!-- END 2COL HALF TEXT/BUTTON IMG -->
+              <table role="presentation" dir="ltr" align="right" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="300">
+                <tr>
+                  <td class="paddingLeft20" align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:Black; padding:20px 20px 20px 0;">
+                    <img src="https://picsum.photos/g/280/150" alt="" width="280" height="150" border="0" style="display:block;" class="photo" />
+                  </td>
+                </tr>
+              </table>
+              <!--[if mso]>
+              </td>
+              <td align="left" valign="top">
+              <![endif]-->
+              <table role="presentation" dir="ltr" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="300">
+                <tr>
+                  <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
+                    <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display. Throttle identify accessibility execute success offer method default series detail section purchase portion loyal local. Field comply represent Hypertext Markup Language.</p>
+  <!-- BUTTON --> 
+                      <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="260">
+                        <tr>
+                          <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:DarkRed; padding:10px 0 20px 0;">
+                            <table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate !important;background-color:DarkRed;color:Snow;border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-left-radius:30px;border-bottom-right-radius:30px;">
+                              <tr>
+                                <td align="center" valign="middle" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;padding-top:12px;padding-bottom:12px;padding-right:30px;padding-left:30px;">
+                                  <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="font-weight:bold;line-height:100%;text-align:center;text-decoration:none;display:block;color:Snow">Button</a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+  <!-- END BUTTON -->
+                  </td>            
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <!-- END 2COL HALF TEXT/BUTTON IMG -->
 <!-- BREAK -->
 <table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
-<!-- BREAK -->
-<!-- 2COL HALF TEXT IMG -->         
-<table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td align="center" valign="top">
-      <table role="presentation" dir="rtl" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-        <tr>
-          <td align="left" valign="top">
-            <table role="presentation" dir="ltr" align="right" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="300">
-              <tr>
-                <td class="paddingLeft20" align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:Black; padding:20px 20px 20px 0;">
-                  <img src="https://picsum.photos/g/280/150" alt="" width="280" height="150" border="0" style="display:block;" class="photo" />
-                </td>
-              </tr>
-            </table>
-            <!--[if mso]>
-            </td>
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+ <!-- 2COL HALF TEXT IMG -->         
+ <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td align="center" valign="top">
+        <table role="presentation" dir="rtl" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+          <tr>
             <td align="left" valign="top">
-            <![endif]-->
-            <table role="presentation" dir="ltr" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="300">
-              <tr>
-                <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
-                  <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display. Throttle identify accessibility execute success offer method default series detail section purchase portion loyal local. Field comply represent Hypertext Markup Language.</p>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
-<!-- END 2COL HALF TEXT IMG --> 
+              <table role="presentation" dir="ltr" align="right" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="300">
+                <tr>
+                  <td class="paddingLeft20" align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:Black; padding:20px 20px 20px 0;">
+                    <img src="https://picsum.photos/g/280/150" alt="" width="280" height="150" border="0" style="display:block;" class="photo" />
+                  </td>
+                </tr>
+              </table>
+              <!--[if mso]>
+              </td>
+              <td align="left" valign="top">
+              <![endif]-->
+              <table role="presentation" dir="ltr" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="300">
+                <tr>
+                  <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
+                    <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display. Throttle identify accessibility execute success offer method default series detail section purchase portion loyal local. Field comply represent Hypertext Markup Language.</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+<!-- END 2COL HALF TEXT IMG -->  
 <!-- BREAK -->
 <table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
-<!-- BREAK -->
-<!-- 2COL HALF TEXT TEXT -->
-<table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td align="center" valign="top">
-      <table role="presentation" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-        <tr>
-          <td align="left" valign="top">
-            <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="300">
-              <tr>
-                <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal;line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
-                  <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display. Throttle identify accessibility execute success offer method default series detail section purchase portion loyal local. Field comply represent Hypertext Markup Language.</p>
-                </td>
-              </tr>
-            </table>
-            <!--[if mso]>
-            </td>
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+ <!-- 2COL THIRDS IMG TEXT -->
+ <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td align="center" valign="top">
+        <table role="presentation" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+          <tr>
             <td align="left" valign="top">
-            <![endif]-->
-            <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="300">
-              <tr>
-                <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal;line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
-                  <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display. Throttle identify accessibility execute success offer method default series detail section purchase portion loyal local. Field comply represent Hypertext Markup Language.</p>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
-<!-- END 2COL HALF TEXT TEXT -->
-<!-- BREAK -->
-<table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
-<!-- BREAK -->
-<!-- 2COL THIRDS IMG TEXT/BUTTON -->
-<table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td align="center" valign="top">
-      <table role="presentation" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-        <tr>
-          <td align="left" valign="top">
-            <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
-              <tr>
-                <td class="paddingRight20" align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:Black; padding:20px 20px 20px 20px;">
-                  <img src="https://picsum.photos/g/160/150" alt="" width="160" height="150" border="0" style="display:block;" class="photo" />
-                </td>
-              </tr>
-            </table>
-            <!--[if mso]>
+              <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
+                <tr>
+                  <td class="paddingRight20" align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:Black; padding:20px 20px 20px 20px;">
+                    <img src="https://picsum.photos/g/160/150" alt="" width="160" height="150" border="0" style="display:block;" class="photo" />
+                  </td>
+                </tr>
+              </table>
+              <!--[if mso]>
+              </td>
+              <td align="left" valign="top">
+              <![endif]-->
+              <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="400">
+                <tr>
+                  <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
+                    <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display. Throttle identify accessibility execute success offer method default series detail section purchase portion loyal local. Field comply represent Hypertext Markup Language.</p>
+                  </td>
+                </tr>
+              </table>
             </td>
-            <td align="left" valign="top">
-            <![endif]-->
-            <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="400">
-              <tr>
-                <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
-                  <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display. Throttle identify accessibility execute success offer method default series detail section purchase portion loyal local. Field comply represent Hypertext Markup Language.</p>
-<!-- BUTTON --> 
-                  <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="260">
-                      <tr>
-                        <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; color:DarkRed; padding:10px 0 20px 0;">
-                          <table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate !important;background-color:DarkRed;color:Snow;border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-left-radius:30px;border-bottom-right-radius:30px;">
-                            <tr>
-                              <td align="center" valign="middle" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;padding-top:12px;padding-bottom:12px;padding-right:30px;padding-left:30px;">
-                                <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="font-weight:bold;line-height:100%;text-align:center;text-decoration:none;display:block;color:Snow">Button</a>
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                      </tr>
-                    </table>
-<!-- END BUTTON --> 
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
-<!--END 2COL THIRDS IMG TEXT/BUTTON -->
-<!-- BREAK -->
-<table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
-<!-- BREAK -->
-<!-- 2COL THIRDS IMG TEXT -->
-<table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td align="center" valign="top">
-      <table role="presentation" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-        <tr>
-          <td align="left" valign="top">
-            <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
-              <tr>
-                <td class="paddingRight20" align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:Black; padding:20px 20px 20px 20px;">
-                  <img src="https://picsum.photos/g/160/150" alt="" width="160" height="150" border="0" style="display:block;" class="photo" />
-                </td>
-              </tr>
-            </table>
-            <!--[if mso]>
-            </td>
-            <td align="left" valign="top">
-            <![endif]-->
-            <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="400">
-              <tr>
-                <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
-                  <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display. Throttle identify accessibility execute success offer method default series detail section purchase portion loyal local. Field comply represent Hypertext Markup Language.</p>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
 <!-- END 2COL THIRDS IMG TEXT -->
 <!-- BREAK -->
 <table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+ <!-- 2COL THIRDS IMG TEXT/BUTTON -->
+ <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td align="center" valign="top">
+        <table role="presentation" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+          <tr>
+            <td align="left" valign="top">
+              <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
+                <tr>
+                  <td class="paddingRight20" align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:Black; padding:20px 20px 20px 20px;">
+                    <img src="https://picsum.photos/g/160/150" alt="" width="160" height="150" border="0" style="display:block;" class="photo" />
+                  </td>
+                </tr>
+              </table>
+              <!--[if mso]>
+              </td>
+              <td align="left" valign="top">
+              <![endif]-->
+              <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="400">
+                <tr>
+                  <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
+                    <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display. Throttle identify accessibility execute success offer method default series detail section purchase portion loyal local. Field comply represent Hypertext Markup Language.</p>
+<!-- BUTTON --> 
+                    <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="260">
+                        <tr>
+                          <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; color:DarkRed; padding:10px 0 20px 0;">
+                            <table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate !important;background-color:DarkRed;color:Snow;border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-left-radius:30px;border-bottom-right-radius:30px;">
+                              <tr>
+                                <td align="center" valign="middle" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;padding-top:12px;padding-bottom:12px;padding-right:30px;padding-left:30px;">
+                                  <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="font-weight:bold;line-height:100%;text-align:center;text-decoration:none;display:block;color:Snow">Button</a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+<!-- END BUTTON --> 
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+<!--END 2COL THIRDS IMG TEXT/BUTTON -->
 <!-- BREAK -->
-<!-- 3COL THIRDS IMG TEXT TEXT/BUTTON -->
+<table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+<!-- 2COL THIRDS TEXT IMG -->         
 <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td align="center" valign="top">
-      <table role="presentation" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-        <tr>
-          <td align="left" valign="top">
-<!-- IMG -->                     
-            <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
-              <tr>
-                <td class="paddingRight20" align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal;color:Black; padding:20px 20px 20px 20px;">
-                  <img src="https://picsum.photos/g/160/150" alt="" width="160" height="150" border="0" style="display:block;" class="photo" />
-                </td>
-              </tr>
-            </table>
-            <!--[if mso]>
-            </td>
+    <tr>
+      <td align="center" valign="top">
+        <table role="presentation" dir="rtl" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+          <tr>
             <td align="left" valign="top">
-            <![endif]-->
-<!-- END IMG --> 
-<!-- CONTENT -->
-            <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
-              <tr>
-                <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
-                  <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display. Throttle identify accessibility execute success offer method default series detail section purchase portion loyal local. Field comply represent Hypertext Markup Language.</p>
-                </td>
-              </tr>
-            </table>
-            <!--[if mso]>
+              <table role="presentation" dir="ltr" align="right" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
+                <tr>
+                  <td class="paddingLeft20" align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:Black; padding:20px 20px 20px 0;">
+                    <img src="https://picsum.photos/g/180/150" alt="" width="180" height="150" border="0" style="display:block;" class="photo" />
+                  </td>
+                </tr>
+              </table>
+              <!--[if mso]>
+              </td>
+              <td align="left" valign="top">
+              <![endif]-->
+              <table role="presentation" dir="ltr" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="400">
+                <tr>
+                  <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
+                    <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display. Throttle identify accessibility execute success offer method default series detail section purchase portion loyal local. Field comply represent Hypertext Markup Language.</p>
+                  </td>
+                </tr>
+              </table>
             </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <!-- END 2COL THIRDS TEXT IMG -->  
+  <!-- BREAK -->
+  <table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+<!--  3COL SOCIAL/ICONS  -->
+<table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td align="left" valign="top">
+        <table role="presentation" align="center" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
+          <tr>
+            <td align="center" valign="top">
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:Black; padding:20px 10px 20px 20px;">
+                    <img src="https://picsum.photos/g/40/40" alt="" width="40" height="40" border="0" style="display:block;" />
+                  </td>
+                  <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:Black; padding:20px 10px 20px 10px;">
+                    <img src="https://picsum.photos/g/40/40" alt="" width="40" height="40" border="0" style="display:block;" />
+                  </td>
+                  <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;  color:Black; padding:20px 20px 20px 10px;">
+                    <img src="https://picsum.photos/g/40/40" alt="" width="40" height="40" border="0" style="display:block;" />
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+  <!--  END SOCIAL  -->
+      </td>
+    </tr>
+  </table>
+<!-- END 3COL SOCIAL/ICONS -->
+<!-- BREAK -->
+<table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+<!-- 3COL THIRDS VERTICAL BUTTON-LIKE -->
+<table role="presentation" bgcolor="DarkRed" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td align="center" valign="top">
+        <table role="presentation" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+          <tr>
             <td align="left" valign="top">
-            <![endif]-->
-<!-- END CONTENT -->
-<!-- PRE-BUTTON CONTENT -->
-            <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
-              <tr>
-                <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
-                  <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display. Throttle identify accessibility execute success offer method default series detail section purchase portion loyal local. Field comply represent Hypertext Markup Language.</p>
+<!-- COLUMN 1 -->
+              <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
+                <tr>
+                  <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:0px 0px 0px 0px;">         
 <!-- PRE-BUTTON CONTENT -->
 <!-- BUTTON --> 
-                    <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="160">
-                      <tr>
-                        <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:DarkRed; padding:10px 0 20px 0;">
-                          <table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate !important;background-color:#FFFFFF;color:#981E32;border-width:2px; border-style: solid;border-color:#000000;">
-                            <tr>
-                              <td align="center" valign="middle" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;padding-top:12px;padding-bottom:12px;padding-right:30px;padding-left:30px;">
-                                <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="font-weight:bold;line-height:100%;text-align:center;text-decoration:none;display:block;color:#981E32;">Button</a>
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                      </tr>
+                    <table role="presentation" bgcolor="DarkRed" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
+                        <tr>
+                            <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; color:Snow; padding:0px 0px 0px 0px;">
+                            <table role="presentation" bgcolor="DarkRed" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:separate !important;background-color:DarkRed;color:Snow;">
+                                <tr>
+                                <td align="center" valign="middle" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;padding-top:12px;padding-bottom:12px;padding-right:30px;padding-left:30px;border-top: 4px solid DarkRed;border-right: 2px solid DarkRed;border-bottom: 4px solid DarkRed;border-left: 4px solid DarkRed;">
+                                    <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display.</p>
+                                </td>
+                                </tr>
+                            </table>
+                            </td>
+                        </tr>
                     </table>
-<!-- END BUTTON -->                          
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
+<!-- END BUTTON -->                         
+                  </td>
+                </tr>
+              </table>
+              <!--[if mso]>
+              </td>
+              <td align="left" valign="top">
+              <![endif]-->
+<!-- END COLUMN 1 -->
+<!-- COLUMN 2 -->
+              <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
+                    <tr>
+                      <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:0px 0px 0px 0px;">
+<!-- PRE-BUTTON CONTENT -->
+<!-- BUTTON --> 
+                        <table role="presentation" bgcolor="DarkRed" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
+                            <tr>
+                                <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; color:Snow; padding:0px 0px 0px 0px;">
+                                <table role="presentation" bgcolor="DarkRed" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:separate !important;background-color:DarkRed;color:Snow;">
+                                    <tr>
+                                    <td align="center" valign="middle" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;padding-top:12px;padding-bottom:12px;padding-right:30px;padding-left:30px;border-top: 4px solid DarkRed;border-right: 2px solid DarkRed;border-bottom: 4px solid DarkRed;border-left: 2px solid DarkRed;height:112px;">
+                                        <p style="margin:0;">Terms fill future confirm sign accept </p>
+                                    </td>
+                                    </tr>
+                                </table>
+                                </td>
+                            </tr>
+                        </table>
+<!-- END BUTTON -->                         
+                  </td>
+                </tr>
+              </table>
+              <!--[if mso]>
+              </td>
+              <td align="left" valign="top">
+              <![endif]-->
+<!-- END COLUMN 2 -->
+<!-- COLUMN 3 -->
+              <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
+                <tr>
+                  <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:0px 0px 0px 0px;">
+<!-- PRE-BUTTON CONTENT -->
+<!-- BUTTON --> 
+                    <table role="presentation" bgcolor="DarkRed" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
+                        <tr>
+                            <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; color:Snow; padding:0px 0px 0px 0px;">
+                            <table role="presentation" bgcolor="DarkRed" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:separate !important;background-color:DarkRed;color:Snow;">
+                                <tr>
+                                <td align="center" valign="middle" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;padding-top:12px;padding-bottom:12px;padding-right:30px;padding-left:30px;border-top: 4px solid DarkRed;border-right: 4px solid DarkRed;border-bottom: 4px solid DarkRed;border-left: 2px solid DarkRed;">
+                                    <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display.</p>
+                                </td>
+                                </tr>
+                            </table>
+                            </td>
+                        </tr>
+                    </table>
+<!-- END BUTTON -->                         
+                  </td>
+                </tr>
+              </table>
+<!-- END COLUMN 3 -->
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+<!-- END 3COL THIRDS VERTICAL BUTTON-LIKE -->
+
+<!-- BREAK -->
+<table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+<!-- 3COL THIRDS IMG TEXT TEXT/BUTTON -->
+<table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td align="center" valign="top">
+        <table role="presentation" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+          <tr>
+            <td align="left" valign="top">
+  <!-- IMG -->                     
+              <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
+                <tr>
+                  <td class="paddingRight20" align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal;color:Black; padding:20px 20px 20px 20px;">
+                    <img src="https://picsum.photos/g/160/150" alt="" width="160" height="150" border="0" style="display:block;" class="photo" />
+                  </td>
+                </tr>
+              </table>
+              <!--[if mso]>
+              </td>
+              <td align="left" valign="top">
+              <![endif]-->
+  <!-- END IMG --> 
+  <!-- CONTENT -->
+              <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
+                <tr>
+                  <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
+                    <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display. Throttle identify accessibility execute success offer method default series detail section purchase portion loyal local. Field comply represent Hypertext Markup Language.</p>
+                  </td>
+                </tr>
+              </table>
+              <!--[if mso]>
+              </td>
+              <td align="left" valign="top">
+              <![endif]-->
+  <!-- END CONTENT -->
+  <!-- PRE-BUTTON CONTENT -->
+              <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
+                <tr>
+                  <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
+                    <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display. Throttle identify accessibility execute success offer method default series detail section purchase portion loyal local. Field comply represent Hypertext Markup Language.</p>
+  <!-- PRE-BUTTON CONTENT -->
+  <!-- BUTTON --> 
+                      <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="160">
+                        <tr>
+                          <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:DarkRed; padding:10px 0 20px 0;">
+                            <table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate !important;background-color:DarkRed;color:Snow;border-width:2px; border-style: solid;border-color:DarkRed;">
+                              <tr>
+                                <td align="center" valign="middle" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;padding-top:12px;padding-bottom:12px;padding-right:30px;padding-left:30px;">
+                                  <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="font-weight:bold;line-height:100%;text-align:center;text-decoration:none;display:block;color:Snow;">Button</a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+  <!-- END BUTTON -->                          
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
 <!--END 3COL THIRDS IMG TEXT TEXT/BUTTON -->
 <!-- BREAK -->
 <table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
-<!-- BREAK -->
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
 <!-- 3COL THIRDS VERTICAL IMG/TEXT/BUTTON -->
 <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td align="center" valign="top">
-      <table role="presentation" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-        <tr>
-          <td align="left" valign="top">
+    <tr>
+      <td align="center" valign="top">
+        <table role="presentation" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+          <tr>
+            <td align="left" valign="top">
 <!-- COLUMN 1 -->
-            <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
-              <tr>
-                <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
-                  <img src="https://picsum.photos/g/160/160" alt="" width="160" height="160" border="0" style="display:block;" class="photo" />
-                  <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display. Throttle identify accessibility execute success offer method default series detail section purchase portion loyal local. Field comply represent Hypertext Markup Language.</p>
+              <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
+                <tr>
+                  <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
+                    <img src="https://picsum.photos/g/160/160" alt="" width="160" height="160" border="0" style="display:block;" class="photo" />
+                    <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display. Throttle identify accessibility execute success offer method default series detail section purchase portion loyal local. Field comply represent Hypertext Markup Language.</p>
 <!-- PRE-BUTTON CONTENT -->
 <!-- BUTTON --> 
-                  <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="160">
-                      <tr>
-                          <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; color:DarkRed; padding:10px 0 20px 0;">
-                          <table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate !important;background-color:DarkRed;color:Snow;border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-left-radius:30px;border-bottom-right-radius:30px;">
-                              <tr>
-                              <td align="center" valign="middle" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;padding-top:12px;padding-bottom:12px;padding-right:30px;padding-left:30px;">
-                                  <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="font-weight:bold;line-height:100%;text-align:center;text-decoration:none;display:block;color:Snow">Button</a>
-                              </td>
-                              </tr>
-                          </table>
-                          </td>
-                      </tr>
-                  </table>
+                    <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="160">
+                        <tr>
+                            <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; color:DarkRed; padding:10px 0 20px 0;">
+                            <table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate !important;background-color:DarkRed;color:Snow;border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-left-radius:30px;border-bottom-right-radius:30px;">
+                                <tr>
+                                <td align="center" valign="middle" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;padding-top:12px;padding-bottom:12px;padding-right:30px;padding-left:30px;">
+                                    <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="font-weight:bold;line-height:100%;text-align:center;text-decoration:none;display:block;color:Snow">Button</a>
+                                </td>
+                                </tr>
+                            </table>
+                            </td>
+                        </tr>
+                    </table>
 <!-- END BUTTON -->                         
-                </td>
-              </tr>
-            </table>
-            <!--[if mso]>
-            </td>
-            <td align="left" valign="top">
-            <![endif]-->
+                  </td>
+                </tr>
+              </table>
+              <!--[if mso]>
+              </td>
+              <td align="left" valign="top">
+              <![endif]-->
 <!-- END COLUMN 1 -->
 <!-- COLUMN 2 -->
-            <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
-                  <tr>
-                    <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
-                      <img src="https://picsum.photos/g/160/160" alt="" width="160" height="160" border="0" style="display:block;" class="photo" />
-                      <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display. Throttle identify accessibility execute success offer method default series detail section purchase portion loyal local. Field comply represent Hypertext Markup Language.</p>
+              <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
+                    <tr>
+                      <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
+                        <img src="https://picsum.photos/g/160/160" alt="" width="160" height="160" border="0" style="display:block;" class="photo" />
+                        <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display. Throttle identify accessibility execute success offer method default series detail section purchase portion loyal local. Field comply represent Hypertext Markup Language.</p>
 <!-- PRE-BUTTON CONTENT -->
 <!-- BUTTON --> 
-                      <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="160">
-                          <tr>
-                              <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; color:DarkRed; padding:10px 0 20px 0;">
-                              <table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate !important;background-color:DarkRed;color:Snow;border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-left-radius:30px;border-bottom-right-radius:30px;">
-                                  <tr>
-                                  <td align="center" valign="middle" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;padding-top:12px;padding-bottom:12px;padding-right:30px;padding-left:30px;">
-                                      <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="font-weight:bold;line-height:100%;text-align:center;text-decoration:none;display:block;color:Snow">Button</a>
-                                  </td>
-                                  </tr>
-                              </table>
-                              </td>
-                          </tr>
-                      </table>
+                        <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="160">
+                            <tr>
+                                <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; color:DarkRed; padding:10px 0 20px 0;">
+                                <table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate !important;background-color:DarkRed;color:Snow;border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-left-radius:30px;border-bottom-right-radius:30px;">
+                                    <tr>
+                                    <td align="center" valign="middle" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;padding-top:12px;padding-bottom:12px;padding-right:30px;padding-left:30px;">
+                                        <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="font-weight:bold;line-height:100%;text-align:center;text-decoration:none;display:block;color:Snow">Button</a>
+                                    </td>
+                                    </tr>
+                                </table>
+                                </td>
+                            </tr>
+                        </table>
 <!-- END BUTTON -->                         
-                </td>
-              </tr>
-            </table>
-            <!--[if mso]>
-            </td>
-            <td align="left" valign="top">
-            <![endif]-->
+                  </td>
+                </tr>
+              </table>
+              <!--[if mso]>
+              </td>
+              <td align="left" valign="top">
+              <![endif]-->
 <!-- END COLUMN 2 -->
 <!-- COLUMN 3 -->
-            <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
-              <tr>
-                <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
-                  <img src="https://picsum.photos/g/160/160" alt="" width="160" height="160" border="0" style="display:block;" class="photo" />
-                  <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display. Throttle identify accessibility execute success offer method default series detail section purchase portion loyal local. Field comply represent Hypertext Markup Language.</p>
+              <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
+                <tr>
+                  <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Black; padding:20px 20px 20px 20px;">
+                    <img src="https://picsum.photos/g/160/160" alt="" width="160" height="160" border="0" style="display:block;" class="photo" />
+                    <p style="margin:0;">Terms fill future confirm sign accept inform engagement internet protocol display. Throttle identify accessibility execute success offer method default series detail section purchase portion loyal local. Field comply represent Hypertext Markup Language.</p>
 <!-- PRE-BUTTON CONTENT -->
 <!-- BUTTON --> 
-                  <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="160">
-                      <tr>
-                          <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; color:DarkRed; padding:10px 0 20px 0;">
-                          <table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate !important;background-color:DarkRed;color:Snow;border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-left-radius:30px;border-bottom-right-radius:30px;">
-                              <tr>
-                              <td align="center" valign="middle" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;padding-top:12px;padding-bottom:12px;padding-right:30px;padding-left:30px;">
-                                  <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="font-weight:bold;line-height:100%;text-align:center;text-decoration:none;display:block;color:Snow">Button</a>
-                              </td>
-                              </tr>
-                          </table>
-                          </td>
-                      </tr>
-                  </table>
+                    <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="160">
+                        <tr>
+                            <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; color:DarkRed; padding:10px 0 20px 0;">
+                            <table role="presentation" bgcolor="White" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate !important;background-color:DarkRed;color:Snow;border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-left-radius:30px;border-bottom-right-radius:30px;">
+                                <tr>
+                                <td align="center" valign="middle" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;padding-top:12px;padding-bottom:12px;padding-right:30px;padding-left:30px;">
+                                    <a href="https://cahnrs.wsu.edu/" target="_blank" rel="noopener" style="font-weight:bold;line-height:100%;text-align:center;text-decoration:none;display:block;color:Snow">Button</a>
+                                </td>
+                                </tr>
+                            </table>
+                            </td>
+                        </tr>
+                    </table>
 <!-- END BUTTON -->                         
-                </td>
-              </tr>
-            </table>
+                  </td>
+                </tr>
+              </table>
 <!-- END COLUMN 3 -->
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
 <!--END 3COL THIRDS VERTICAL IMG/TEXT/BUTTON -->
 <!-- BREAK -->
 <table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
-<!-- BREAK -->
-<!-- FOOTER CAHNRS -->
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+<!--  4COL LOGO/ICON SOCIAL/ICONS  -->
 <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td align="left" valign="top">
-      <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
-        <tr>
-          <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:12px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:DimGray; padding:20px 20px 20px 20px;">
-            <p style="margin:0;">421 Hulbert Hall, PO Box 646242, Pullman, WA 99164-6242<br/>
-  509-335-4561 | Fax: 509-335-1065 | <a href="mailto:cahnrs.deans@wsu.edu" style="color: DimGray; text-decoration: underline;">cahnrs.deans@wsu.edu</a> | <a href="https://cahnrs.wsu.edu/" style="color: DimGray; text-decoration: underline;">cahnrs.wsu.edu</a></p>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
-<!-- END FOOTER CAHNRS -->
+    <tr>
+      <td align="left" valign="top">
+  <!--  LOGO -->
+        <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="400">
+          <tr>
+            <td align="center" valign="top">
+              <table role="presentation" class="widthAuto" cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                  <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:Black; padding:20px 20px 20px 20px;">
+                    <img src="https://picsum.photos/g/200/40" alt="" width="200" height="40" border="0" style="display:block;" />
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+  <!--  END LOGO -->
+  <!--  SOCIAL  -->
+        <!--[if mso]>
+        </td>
+        <td align="left" valign="top">
+        <![endif]-->
+        <table role="presentation" align="left" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="200">
+          <tr>
+            <td align="center" valign="top">
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:Black; padding:20px 10px 20px 20px;">
+                    <img src="https://picsum.photos/g/40/40" alt="" width="40" height="40" border="0" style="display:block;" />
+                  </td>
+                  <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; color:Black; padding:20px 10px 20px 10px;">
+                    <img src="https://picsum.photos/g/40/40" alt="" width="40" height="40" border="0" style="display:block;" />
+                  </td>
+                  <td align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px;  color:Black; padding:20px 20px 20px 10px;">
+                    <img src="https://picsum.photos/g/40/40" alt="" width="40" height="40" border="0" style="display:block;" />
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+  <!--  END SOCIAL  -->
+      </td>
+    </tr>
+  </table>
+<!-- END 4COL LOGO/ICON SOCIAL/ICONS -->
 <!-- BREAK -->
 <table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
-<!-- BREAK -->
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+<!-- END ADD HERE -->
+</td></tr></table>
+<!-- END BODY COPY SECTION -->
+<!-- ADD FOOTER HERE -->
+ <!-- FOOTER CAHNRS -->
+ <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td align="left" valign="top">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+          <tr>
+            <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:12px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:DimGray; padding:20px 20px 20px 20px;">
+              <p style="margin:0;">421&nbsp;Hulbert&nbsp;Hall, PO&nbsp;Box&nbsp;646242, Pullman,&nbsp;WA&nbsp;99164-6242<br/>
+    509-335-4561&nbsp;| <a href="mailto:cahnrs.deans@wsu.edu" style="color: DimGray; text-decoration: underline;">cahnrs.deans@wsu.edu</a>&nbsp;| <a href="https://cahnrs.wsu.edu/" style="color: DimGray; text-decoration: underline;">cahnrs.wsu.edu</a></p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+<!-- END FOOTER CAHNRS -->
+ <!-- BREAK -->
+ <table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
 <!-- FOOTER DADA MAIL -->
 <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td align="left" valign="top">
-      <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
-        <tr>
-          <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:12px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:DimGray; padding:20px 20px 20px 20px;">
-            <p style="margin:0;"><a href="<!-- tmpl_var list_unsubscribe_link -->" target="_blank" rel="noopener" style="color: DimGray; outline: none; text-decoration: underline;">Unsubscribe</a></p>
-          </td>
-        </tr>
-        <tr>
-          <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:12px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:DimGray; padding:0px 20px 20px 20px;">
-              <p style="margin:0;">421 Hulbert Hall, PO Box 646242, Pullman, WA 99164-6242<br/>
-    509-335-4561 | Fax: 509-335-1065 | <a href="mailto:cahnrs.deans@wsu.edu" style="color: DimGray; text-decoration: underline;">cahnrs.deans@wsu.edu</a> | <a href="https://cahnrs.wsu.edu/" style="color: DimGray; text-decoration: underline;">cahnrs.wsu.edu</a></p>
+    <tr>
+      <td align="left" valign="top">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+          <tr>
+            <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:12px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:DimGray; padding:20px 20px 20px 20px;">
+              <p style="margin:0;"><a href="<!-- tmpl_var list_unsubscribe_link -->" target="_blank" rel="noopener" style="color: DimGray; outline: none; text-decoration: underline;">Unsubscribe</a></p>
             </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
+          </tr>
+          <tr>
+            <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:12px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:DimGray; padding:0px 20px 20px 20px;">
+                <p style="margin:0;">421 Hulbert Hall, PO Box 646242, Pullman, WA 99164-6242<br/>
+      509-335-4561 | Fax: 509-335-1065 | <a href="mailto:cahnrs.deans@wsu.edu" style="color: DimGray; text-decoration: underline;">cahnrs.deans@wsu.edu</a> | <a href="https://cahnrs.wsu.edu/" style="color: DimGray; text-decoration: underline;">cahnrs.wsu.edu</a></p>
+              </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
 <!-- END FOOTER DADA MAIL -->
-<!-- BREAK -->
-<table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
-<!-- BREAK -->
-<!-- FOOTER MAILCHIMP -->
-<table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td align="left" valign="top">
-      <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
-        <tr>
-          <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:12px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:DimGray; padding:20px 20px 20px 20px;">
-              <p style="margin:0;"><a href="*|FORWARD|*" target="_blank" rel="noopener" style="color: DimGray; outline: none; text-decoration: underline;">Forward to a Friend</a> | <a href="*|UPDATE_PROFILE|*" target="_blank" rel="noopener" style="color: DimGray; outline: none; text-decoration: underline;">Update your profile</a> | <a href="*|UNSUB|*" target="_blank" rel="noopener" style="color: DimGray; outline: none; text-decoration: underline;">Unsubscribe</a></p>
-          </td>
-        </tr>
-        <tr>
-          <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:12px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:DimGray; padding:0px 20px 20px 20px;">
-              <p style="margin:0;">421 Hulbert Hall, PO Box 646242, Pullman, WA 99164-6242<br/>
-    509-335-4561 | Fax: 509-335-1065 | <a href="mailto:cahnrs.deans@wsu.edu" style="color: DimGray; text-decoration: underline;">cahnrs.deans@wsu.edu</a> | <a href="https://cahnrs.wsu.edu/" style="color: DimGray; text-decoration: underline;">cahnrs.wsu.edu</a></p>
-            </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
-<!-- END FOOTER MAILCHIMP -->
-<!-- BREAK -->
-<table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
-  </tr>
-</table>
-<!-- BREAK -->
+ <!-- BREAK -->
+ <table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
 <!-- FOOTER GENERIC -->
 <table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
-  <tr>
-    <td align="left" valign="top">
-      <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
-        <tr>
-          <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:12px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:DimGray; padding:20px 20px 20px 20px;">
-            <p style="margin:0;"><a href="tbd" target="_blank" rel="noopener" style="color: DimGray; outline: none; text-decoration: underline;">Terms</a> | <a href="tbd" target="_blank" rel="noopener" style="color: DimGray; outline: none; text-decoration: underline;">Policies</a> | <a href="tbd" target="_blank" rel="noopener" style="color: DimGray; outline: none; text-decoration: underline;">Preferences</a> | <a href="tbd" target="_blank" rel="noopener" style="color: DimGray; outline: none; text-decoration: underline;">Unsubscribe</a></p>
-          </td>
-        </tr>
-        <tr>
-          <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:12px; font-weight: normal; text-decoration: none;line-height:150%; mso-line-height-rule:exactly; color:DimGray; padding:0px 20px 20px 20px;">
-            <p style="margin:0;">&copy; 2017. Header provider strategic consulting support conversation advertisements policy promotional request. Option purpose programming intentional logo color account correct user rates.</p>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
+    <tr>
+      <td align="left" valign="top">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+          <tr>
+            <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:12px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:DimGray; padding:20px 20px 20px 20px;">
+              <p style="margin:0;"><a href="tbd" target="_blank" rel="noopener" style="color: DimGray; outline: none; text-decoration: underline;">Terms</a> | <a href="tbd" target="_blank" rel="noopener" style="color: DimGray; outline: none; text-decoration: underline;">Policies</a> | <a href="tbd" target="_blank" rel="noopener" style="color: DimGray; outline: none; text-decoration: underline;">Preferences</a> | <a href="tbd" target="_blank" rel="noopener" style="color: DimGray; outline: none; text-decoration: underline;">Unsubscribe</a></p>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:12px; font-weight: normal; text-decoration: none;line-height:150%; mso-line-height-rule:exactly; color:DimGray; padding:0px 20px 20px 20px;">
+              <p style="margin:0;">&copy; 2017. Header provider strategic consulting support conversation advertisements policy promotional request. Option purpose programming intentional logo color account correct user rates.</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
 <!-- END FOOTER GENERIC -->
-
+ <!-- BREAK -->
+ <table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
+<!-- FOOTER MAILCHIMP -->
+<table role="presentation" bgcolor="White" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td align="left" valign="top">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+          <tr>
+            <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:12px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:DimGray; padding:20px 20px 20px 20px;">
+                <p style="margin:0;"><a href="*|FORWARD|*" target="_blank" rel="noopener" style="color: DimGray; outline: none; text-decoration: underline;">Forward to a Friend</a> | <a href="*|UPDATE_PROFILE|*" target="_blank" rel="noopener" style="color: DimGray; outline: none; text-decoration: underline;">Update your profile</a> | <a href="*|UNSUB|*" target="_blank" rel="noopener" style="color: DimGray; outline: none; text-decoration: underline;">Unsubscribe</a></p>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:12px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:DimGray; padding:0px 20px 20px 20px;">
+                <p style="margin:0;">421 Hulbert Hall, PO Box 646242, Pullman, WA 99164-6242<br/>
+      509-335-4561 | Fax: 509-335-1065 | <a href="mailto:cahnrs.deans@wsu.edu" style="color: DimGray; text-decoration: underline;">cahnrs.deans@wsu.edu</a> | <a href="https://cahnrs.wsu.edu/" style="color: DimGray; text-decoration: underline;">cahnrs.wsu.edu</a></p>
+              </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+<!-- END FOOTER MAILCHIMP -->
+ <!-- BREAK -->
+ <table role="presentation" bgcolor="RebeccaPurple" class="widthFull" cellpadding="0" cellspacing="0" border="0" width="600">
+    <tr>
+      <td class="paddingRightLeft10" align="left" valign="top" style="font-family:'Open+Sans', Helvetica, Arial, sans-serif; font-size:14px; font-weight: normal; line-height:150%; mso-line-height-rule:exactly; color:Lime; padding:20px 20px 20px 20px;margin:0;">&nbsp;</td>
+    </tr>
+  </table>
+ <!-- END BREAK -->
 <!-- END ADD HERE -->
         </td>
       </tr>
